@@ -10,11 +10,11 @@ source.dir = .
 
 source.include_exts = py,png,jpg,kv,atlas
 
-version = 0.1
+version = 0.3
 
 requirements = python3==3.10.0,kivy,plyer
 
-icon.filename = %(source.dir)s/icon.png
+icon.filename = icon.png
 
 orientation = portrait
 
@@ -33,8 +33,6 @@ android.minapi = 21
 android.ndk = 25b
 
 android.accept_sdk_license = True
-
-android.entrypoint = org.kivy.android.PythonActivity
 
 android.intent_filters = LAUNCHER
 
