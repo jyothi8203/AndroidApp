@@ -14,6 +14,8 @@ version = 0.1
 
 requirements = python3==3.10.0,kivy,plyer
 
+icon.filename = %(source.dir)s/icon.png
+
 orientation = portrait
 
 osx.python_version = 3
@@ -31,6 +33,12 @@ android.minapi = 21
 android.ndk = 25b
 
 android.accept_sdk_license = True
+
+android.entrypoint = org.kivy.android.PythonActivity
+
+android.intent_filters = LAUNCHER
+
+android.bootstrap = sdl2
 
 android.build_tools = 33.0.2
 
