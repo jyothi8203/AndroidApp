@@ -10,7 +10,7 @@ source.dir = .
 
 source.include_exts = py,png,jpg,kv,atlas
 
-version = 0.3
+version = 1.0
 
 requirements = python3==3.10.0,kivy,plyer
 
@@ -37,6 +37,8 @@ android.accept_sdk_license = True
 android.intent_filters = LAUNCHER
 
 android.bootstrap = sdl2
+
+entrypoint = main.py
 
 android.build_tools = 33.0.2
 
