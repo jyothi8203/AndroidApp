@@ -2,6 +2,7 @@ from kivy.app import App
 from kivy.uix.label import Label
 
 class MyApp(App):
+    def build(self):
         try:
             with open("/sdcard/test_log.txt", "w") as f:
                 f.write("APP STARTED SUCCESSFULLY")
