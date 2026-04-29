@@ -10,6 +10,8 @@ source.dir = .
 
 source.include_exts = py,png,jpg,kv,atlas
 
+source.main = main.py
+
 version = 1.0
 
 requirements = python3==3.10.0,kivy,plyer
