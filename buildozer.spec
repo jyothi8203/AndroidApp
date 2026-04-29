@@ -36,7 +36,8 @@ android.accept_sdk_license = True
 
 android.intent_filters = LAUNCHER
 
-android.bootstrap = sdl2
+#android.bootstrap = sdl2
+p4a.bootstrap = sdl2
 
 entrypoint = main.py
 
